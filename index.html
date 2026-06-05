@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZenVue · Remote monitoring, managed for you</title>
+  <meta name="description" content="ZenVue is a managed monitoring service that keeps you connected to what matters most, quietly and securely, around the clock. A product of Zenith Solutions Limited." />
+  <meta name="theme-color" content="#081826" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="ZenVue · Remote monitoring, managed for you" />
+  <meta property="og:description" content="Stay connected to what matters most, quietly and securely, around the clock." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://zenvue.app" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicons (Zenith Solutions brand assets) -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="ZenVue — home">
+        <img class="brand__mark" src="images/TransLogo.png" alt="" width="450" height="450" decoding="async" />
+        <span class="brand__text">
+          <span class="brand__name">Zen<span class="brand__accent">Vue</span></span>
+          <span class="brand__sub">by Zenith Solutions</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Primary">
+        <a href="#platform" class="nav__link">Platform</a>
+        <a href="#approach" class="nav__link">Approach</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+
+      <div class="header__actions">
+        <a class="btn btn--primary header__login" href="https://track.zenvue.app">Client login</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__copy reveal">
+          <p class="eyebrow">ZenVue · Remote monitoring</p>
+          <h1 class="h1">See everything.<br />From anywhere.</h1>
+          <p class="lead">
+            ZenVue keeps you connected to the equipment and operations that matter
+            most, quietly and securely, around the clock. The information you need,
+            wherever you happen to be.
+          </p>
+          <p class="hero__note">Tailored solutions for marine, industrial and remote operations.</p>
+        </div>
+
+        <!-- Teaser panel — mirrors the Zenith reference's layered panel -->
+        <div class="panel reveal" style="--d:.12s" aria-hidden="true">
+          <div class="panel__inner">
+            <img class="panel__logo" src="images/TransLogo.png" alt="" width="450" height="450" decoding="async" />
+            <p class="panel__status"><span class="dot"></span>All systems reporting</p>
+            <div class="teaser-grid">
+              <div class="teaser">
+                <span class="teaser__label">Live status</span>
+                <span class="teaser__value">At a glance</span>
+              </div>
+              <div class="teaser">
+                <span class="teaser__label">Alerts</span>
+                <span class="teaser__value">The moment they matter</span>
+              </div>
+              <div class="teaser">
+                <span class="teaser__label">History</span>
+                <span class="teaser__value">Always to hand</span>
+              </div>
+              <div class="teaser">
+                <span class="teaser__label">Your fleet</span>
+                <span class="teaser__value">One clear view</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PLATFORM / CAPABILITIES ============ -->
+    <section class="section band" id="platform">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">What ZenVue does</p>
+          <h2 class="h2">Monitoring, without the worry.</h2>
+          <p class="section__lead">
+            A single, calm view of your operation, designed so the right people
+            know the right things, at the right time.
+          </p>
+        </header>
+
+        <div class="cards">
+          <article class="card reveal">
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="3" /><circle cx="12" cy="12" r="8.5" />
+              </svg>
+            </span>
+            <h3 class="card__title">Live insight</h3>
+            <p class="card__text">See the status of your equipment at a glance, kept continuously up to date. From locations, tank levels and current weather to engine or generator states and alarms.</p>
+          </article>
+
+          <article class="card reveal" style="--d:.08s">
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 15v-4a6 6 0 0 1 12 0v4l2 2.5H4z" /><path d="M10 19a2 2 0 0 0 4 0" />
+              </svg>
+            </span>
+            <h3 class="card__title">Timely alerts</h3>
+            <p class="card__text">Be told the moment something needs your attention, wherever you are. Quiet when all is well, clear when it isn't.</p>
+          </article>
+
+          <article class="card reveal" style="--d:.16s">
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 5v14h16" /><path d="M7 14l3.5-4 3 2.2L20 7" />
+              </svg>
+            </span>
+            <h3 class="card__title">The full picture</h3>
+            <p class="card__text">Look back over history and trends across your whole operation, from any device, whenever a question comes up.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ APPROACH (bespoke) ============ -->
+    <section class="section" id="approach">
+      <div class="container approach__grid">
+        <div class="approach__intro reveal">
+          <p class="eyebrow">How we work</p>
+          <h2 class="h2">Built around your operation.</h2>
+          <p class="section__lead">
+            Every operation is different. We start by understanding yours, then
+            design, install and support a monitoring solution that fits.
+          </p>
+          <p class="approach__future">
+            Every ZenVue deployment is bespoke: surveyed on site, installed and
+            configured for your conditions, and fully supported for as long as you
+            need it.
+          </p>
+        </div>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__num">01</span>
+            <div>
+              <h3 class="step__title">Feasibility study</h3>
+              <p class="step__text">We assess your sites, equipment and goals to confirm what is worth monitoring, and how.</p>
+            </div>
+          </li>
+          <li class="step reveal" style="--d:.06s">
+            <span class="step__num">02</span>
+            <div>
+              <h3 class="step__title">Site survey</h3>
+              <p class="step__text">We visit on location to understand your real conditions, connectivity and the practicalities of each installation.</p>
+            </div>
+          </li>
+          <li class="step reveal" style="--d:.12s">
+            <span class="step__num">03</span>
+            <div>
+              <h3 class="step__title">Installation</h3>
+              <p class="step__text">Our team installs and configures everything on site, so it works reliably in the field from day one.</p>
+            </div>
+          </li>
+          <li class="step reveal" style="--d:.18s">
+            <span class="step__num">04</span>
+            <div>
+              <h3 class="step__title">Integration</h3>
+              <p class="step__text">We connect ZenVue to the systems that matter to you and shape the views around how you work.</p>
+            </div>
+          </li>
+          <li class="step reveal" style="--d:.24s">
+            <span class="step__num">05</span>
+            <div>
+              <h3 class="step__title">Ongoing support</h3>
+              <p class="step__text">We keep it running and evolve it with you as your operation grows and changes.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT / DUAL CTA ============ -->
+    <section class="section band" id="contact">
+      <div class="container">
+        <header class="section__head section__head--center reveal">
+          <p class="eyebrow">Get in touch</p>
+          <h2 class="h2">Two ways to begin.</h2>
+        </header>
+
+        <div class="cta-grid">
+          <div class="cta-card reveal">
+            <h3 class="cta-card__title">Already with ZenVue?</h3>
+            <p class="cta-card__text">Sign in to your dashboard to see your equipment live, review history and manage alerts.</p>
+            <a class="btn btn--primary" href="https://track.zenvue.app">Client login</a>
+          </div>
+
+          <div class="cta-card reveal" style="--d:.08s">
+            <h3 class="cta-card__title">Exploring ZenVue?</h3>
+            <p class="cta-card__text">Tell us a little about your sites and equipment, and what you'd like to keep an eye on. We'll be in touch to discuss.</p>
+            <a class="btn btn--ghost" href="mailto:allen@zenithsuperyachts.com?subject=ZenVue%20enquiry">Request information</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img class="footer__mark" src="images/TransLogo.png" alt="" width="450" height="450" decoding="async" />
+        <div>
+          <div class="footer__name">Zen<span class="brand__accent">Vue</span></div>
+          <div class="footer__sub">A product of Zenith Solutions Limited</div>
+        </div>
+      </div>
+      <p class="footer__copy">© 2026 Zenith Solutions Limited. All rights reserved.</p>
+      <a class="footer__link" href="https://zenithsuperyachts.com" target="_blank" rel="noopener noreferrer">
+        zenithsuperyachts.com <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
